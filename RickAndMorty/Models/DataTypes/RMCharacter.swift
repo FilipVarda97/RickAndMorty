@@ -27,10 +27,10 @@ extension RMCharacter {
     init(entity: RMCharacterEntity) {
         self.id = Int(entity.id)
         self.name = entity.name ?? ""
-        self.status = RMCharacterStatus(rawValue: entity.status!) ?? .unknown
-        self.species = entity.name ?? ""
+        self.status = RMCharacterStatus(rawValue: (entity.status ?? "unknown"))!
+        self.species = entity.species ?? ""
         self.type = entity.name ?? ""
-        self.gender = RMCharacterGender(rawValue: entity.gender!) ?? .unknown
+        self.gender = RMCharacterGender(rawValue: (entity.gender ?? "unknown"))!
         self.origin = RMCharacterOrigin(name: entity.origin ?? "", url: "")
         self.location = RMCharacterLocation(name: "", url: "")
         self.image = entity.image ?? ""
