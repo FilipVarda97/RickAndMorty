@@ -1,6 +1,6 @@
 # Rick and Morty app writen in Swift
 <div id="header" align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/ru/0/0c/Xcode_icon.png" width="150"/>
+  <img src="https://media.giphy.com/media/smGpsxCQzXwDS/giphy.gif?cid=ecf05e47sznaml75yxs5hmd42gxq6bayl5dfd5p3adv2jstk&rid=giphy.gif&ct=g" width="150"/>
 </div>
 
 Note: This project uses CocoaPods (SnapKit). Open RickAndMorty.xcworkspace instead of RickAndMorty.xcodeproj.
