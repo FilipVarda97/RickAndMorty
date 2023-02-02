@@ -1,7 +1,9 @@
+# Rick and Morty app writen in Swift
+
 <div id="header" align="center">
   <img src="[https://media.giphy.com/media/smGpsxCQzXwDS/giphy.gif?cid=ecf05e47sznaml75yxs5hmd42gxq6bayl5dfd5p3adv2jstk&rid=giphy.gif&ct=g](https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif?cid=ecf05e47fy45883mn9qdmbwjipeioxskk30vg3qta7pyi28r&rid=giphy.gif&ct=s)" width="150"/>
 </div>
-# Rick and Morty app writen in Swift
+
 Note: This project uses CocoaPods (SnapKit). Open RickAndMorty.xcworkspace instead of RickAndMorty.xcodeproj.
 Also, keep an eye out for SplashScreen since it's writen in SwiftUI.
 
