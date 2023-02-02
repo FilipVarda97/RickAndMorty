@@ -1,6 +1,10 @@
 # Rick and Morty app writen in Swift
+<div id="header" align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/ru/0/0c/Xcode_icon.png" width="150"/>
+</div>
 
-Note: This project uses SnapKit for constraints. Open RickAndMorty.xcworkspace instead of RickAndMorty.xcodeproj
+Note: This project uses CocoaPods (SnapKit). Open RickAndMorty.xcworkspace instead of RickAndMorty.xcodeproj.
+Also, keep an eye out for SplashScreen since it's writen in SwiftUI.
 
 This app fetches Character models and presentes them in UICollectionView. The UICollectionView supports paging, since there are over 800 characters. Each page/request returns 20 characters.
 The app uses MVVM desing pattern.
